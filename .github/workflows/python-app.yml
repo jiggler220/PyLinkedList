@@ -23,8 +23,9 @@ jobs:
 
     - name: Install dependencies
       run: |
+        cd pyLinkedList  # Change directory to the project root
         python -m pip install --upgrade pip
-        pip install -r pyLinkedList\\requirements.txt  # Replace with your actual requirements file if needed
+        pip install -r requirements.txt  # Replace with your actual requirements file if needed
 
     - name: Run tests
       run: python -m unittest discover -v
