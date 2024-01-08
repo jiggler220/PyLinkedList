@@ -21,6 +21,7 @@ class LinkedListCycleTest(unittest.TestCase):
         """
         Test Non Cyclic Linked List
         """
+        
         expectedResult = False
 
         # Create a linked list without a cycle
