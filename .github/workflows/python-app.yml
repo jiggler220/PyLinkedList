@@ -28,4 +28,6 @@ jobs:
         pip install -r requirements.txt  # Replace with your actual requirements file if needed
 
     - name: Run tests
-      run: python -m unittest discover -v
+      run: |
+        cd pyLinkedList  # Change directory to the project root
+        python -m unittest discover -v
