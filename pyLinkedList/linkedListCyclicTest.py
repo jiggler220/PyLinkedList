@@ -9,6 +9,7 @@ def printColoredResult(result, expected):
     """
     Print the result in color based on if result is what is expected.
     """
+    
     if result == expected:
         return Fore.GREEN + "SUCCESS"
 
