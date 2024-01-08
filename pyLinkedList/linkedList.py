@@ -12,6 +12,7 @@ def initLinkedList(elements):
     """
     Initialize linked list with elements
     """
+    
     if not elements:
         return None
 
@@ -29,6 +30,7 @@ def hasCycle(head):
     """
     Check if the linked list has a cycle using Floyd's Tortoise and Hare algorithm.
     """
+    
     if not head or not head.next:
         return False
 
